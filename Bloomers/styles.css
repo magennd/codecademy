@@ -67,7 +67,8 @@ nav a:hover {
     width: 100%;
     display: flex;
     min-height: 30rem;
-    background-color: blanchedalmond;
+    background-color: #ffdb3d;
+    background-image: url(./resources/banner1.png);
 }
 
 .about-us {
@@ -94,6 +95,10 @@ nav a:hover {
     flex: 1 250px;
     padding: .5rem;
     margin: 1rem;
+}
+
+.products img {
+    max-height: 25rem;
 }
 
 /* Product and staff containers */
