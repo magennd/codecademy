@@ -84,10 +84,16 @@ nav a:hover {
 .products {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .products .head {
     width: 100%;
-    display:inline-block;
+}
+
+.products .card {
+    flex: 1 250px;
+    padding: .5rem;
+    margin: 1rem;
 }
 
 /* Product and staff containers */
