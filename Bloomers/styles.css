@@ -42,6 +42,7 @@ z-index: 10;
 
 header img {
 height: 100%;
+padding-left: 2rem;
 }
 
 nav li {
@@ -65,7 +66,7 @@ color: #eaffed;
 
 .content {
 margin-top: 80px;
-margin-left: 3rem;
+/* margin-left: 3rem; */
 }
 
 .hero {
@@ -95,6 +96,7 @@ flex: 1;
 }
 .products .head {
 width: 100%;
+margin: 2rem;
 }
 
 .products .card {
@@ -107,7 +109,8 @@ justify-content: space-evenly;
 }
 
 .products img {
-max-height: 25rem;
+max-width: 100%;
+height: auto;
 }
 
 /* Product and staff containers */
@@ -132,4 +135,31 @@ padding: 2px 16px;
 .products {
 justify-content: space-evenly;
 gap: 1rem;
+}
+
+.troupe, .message {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.troupe {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.troupe-intro {
+    width: 100%;
+}
+
+.card2 {
+    flex: 1 300px;  
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.card2 img {
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 19rem;
+    filter: grayscale(100%)
 }
