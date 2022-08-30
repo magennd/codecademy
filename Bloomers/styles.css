@@ -163,3 +163,14 @@ gap: 1rem;
     max-height: 19rem;
     filter: grayscale(100%)
 }
+
+footer {
+    display: flex;
+    margin-left: 2rem;
+    justify-content: center; 
+}
+
+footer p {
+    padding: 0 2rem;;
+}
+
