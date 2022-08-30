@@ -64,6 +64,24 @@ nav a:hover {
 color: #eaffed;
 }
 
+/* HEADER RESPONSIVENESS */
+
+
+/* Medium devices (tablets, 768px and up) */
+/* Remove img icon, and nav li (?) */
+
+@media (min-width: 768px) {
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+/* Remove nav items if not already */
+@media (min-width: 576px) {
+
+}
+
+/* MAIN CONTENT */
+
 .content {
 margin-top: 60px;
 /* margin-left: 3rem; */
@@ -76,6 +94,8 @@ min-height: 30rem;
 background-color: #ffdb3d;
 background-image: url(./resources/banner1.png);
 }
+/* hero background  */
+
 
 .about-us {
 width: 40rem;
