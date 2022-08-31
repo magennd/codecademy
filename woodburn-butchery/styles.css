@@ -71,7 +71,7 @@ h1 {
 
 .about {
     display: grid;
-    gap: 2rem;
+    gap: calc(.5rem + 3vw);
     grid-template-columns: 1fr 1fr;
     padding: calc(.5rem + 3vw);
     text-align: center;
@@ -97,8 +97,15 @@ h1 {
     max-width: 100%;
 }
 
-.heritage, .join {
+.heritage, .join, .events {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    justify-self: center;
+}
+
+.events {
+    max-width: 35rem;
+}
+.events img {
+    max-width: 100%;
 }
