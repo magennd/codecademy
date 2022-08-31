@@ -1,6 +1,104 @@
-/* FONT SETTINGS */
-
-h1 {
-    font-family: 'UnifrakturCook', cursive;
+/* navbar  */
+nav {
+  overflow: hidden;
+  background-color: #a6323b;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
+/* Links inside the navbar */
+
+nav a {
+  /* float: center; */
+  display: inline-block;
+  color: #f2ebdf;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+nav a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.content {
+  margin-top: 47px; /* Add a top margin to avoid content overlay */
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2ebdf;
+}
+
+h1 {
+  font-family: "Blaka Hollow", cursive;
+  font-size: calc(4.5rem + 3vw);
+}
+
+.hero {
+  background-color: #a6323b;
+  text-align: center;
+}
+
+.hero h1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.hero img {
+  max-width: 100%;
+  grid-column: 2/3;
+  grid-row: 1/3;
+  align-items: center;
+}
+
+.hero p {
+  font-family: "Blaka", cursive;
+  font-size: calc(.5rem + 3vw);
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* grid-template-rows: 1fr 2fr 1fr; */
+    padding: 0 2rem;
+}
+
+.about {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    padding: calc(.5rem + 3vw);
+    text-align: center;
+}
+
+.heritage {
+    grid-area: 1/1/2/2;
+    text-align: center;
+    max-width: 35rem;
+}
+
+.heritage img {
+    grid-area: 1/3/2/4;
+    max-width: 100%;
+}
+
+.join {
+    max-width: 35rem;
+    text-align: center;
+
+}
+.join img {
+    max-width: 100%;
+}
+
+.heritage, .join {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
