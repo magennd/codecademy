@@ -170,6 +170,10 @@ gap: 1rem;
     filter: grayscale(100%)
 }
 
+.message p {
+    margin-right: 2rem;
+}
+
 footer {
     display: flex;
     margin-left: 2rem;
@@ -177,7 +181,7 @@ footer {
 }
 
 footer p {
-    padding: 0 2rem;;
+    padding: 2rem;;
 }
 
 
